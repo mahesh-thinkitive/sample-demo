@@ -7,6 +7,7 @@ function App() {
     <Router>
       <p>learn react</p>
       <Switch>
+        {/* route to specific page if path match found  */}
         {appRoutes.map((route, index) => (
           <Route
             key={index}

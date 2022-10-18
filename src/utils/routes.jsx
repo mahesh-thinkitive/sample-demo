@@ -7,6 +7,7 @@ import Integration from "../pages/Integration";
 import Search from "../pages/Search";
 import SubNewPage from "../pages/SubNavPage";
 
+// Routes available for the samle app
 export const appRoutes = [
   {
     path: "/",
