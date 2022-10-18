@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import Integration from "../pages/Integration";
 import Search from "../pages/Search";
 import SubNewPage from "../pages/SubNavPage";
+import TestFetch from "../pages/TestFetch";
 
 // Routes available for the samle app
 export const appRoutes = [
@@ -22,7 +23,7 @@ export const appRoutes = [
   {
     path: "/alert",
     exact: true,
-    main: () => <Alert/>,
+    main: () => <TestFetch/>,
   },
   {
     path: "/dashboard",
