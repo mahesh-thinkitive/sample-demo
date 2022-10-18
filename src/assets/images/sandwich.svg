@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_236" data-name="Group 236" transform="translate(4332 281)">
+    <g id="Rectangle_38" data-name="Rectangle 38" transform="translate(-4332 -281)" fill="#fff" stroke="#fff" stroke-width="1" opacity="0">
+      <rect width="40" height="40" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" fill="none"/>
+    </g>
+    <g id="noun-hamburger-1320815" transform="translate(-4422.873 -402.834)">
+      <path id="Path_218" data-name="Path 218" d="M123.172,142.406h-24.6a.572.572,0,1,1,0-1.144h24.6a.572.572,0,0,1,0,1.144Zm.572-7.437a.574.574,0,0,0-.572-.572h-24.6a.572.572,0,1,0,0,1.144h24.6A.573.573,0,0,0,123.744,134.969Zm0,13.73a.574.574,0,0,0-.572-.572h-24.6a.572.572,0,1,0,0,1.144h24.6A.574.574,0,0,0,123.744,148.7Z" transform="translate(0)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
