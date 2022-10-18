@@ -15,6 +15,7 @@ import { useLocation } from "react-router-dom";
 
 import SubSideMenu from "../SubSidemenu"; 
 
+// common sidebar menu for specific pages
 const SidebarMenu = () => {
   const { pathname } = useLocation();
   const [toggleSubMenu, setToggleSubMenu] = useState(false)
@@ -36,6 +37,7 @@ const SidebarMenu = () => {
             <p className="menu-text"></p>
           </a>
 
+          {/* redirect to page after click and will be selected for selected page */}
           <NavLink
             to="/search"
             className={(isActive) => "flex cursor-pointer " + (isActive ? "selected-menu-item" : " menu-item")}

@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import CheckboxListSecondary from '../DemoUserCard';
 
+// sample tab for 3rd level navigations
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 

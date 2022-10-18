@@ -5,6 +5,7 @@ import NotificationIcon from "../../assets/images/notification.png";
 import ProfileIcon from "../../assets/images/profile.png";
 import DownArrowIcon from "../../assets/images/arrow_header.png";
 
+// common header for pages
 const Header = () => {
   return (
     <div className="header-container">

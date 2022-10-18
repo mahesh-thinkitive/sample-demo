@@ -15,6 +15,7 @@ import App6 from "../../assets/images/Image 29.png";
 import SidebarMenu from "../../components/Sidebar";
 import Header from "../../components/Header";
 
+// demo app list to render
 const APPS_LIST = [
   {
     iconPath: App1,
@@ -142,6 +143,7 @@ const Home = () => {
 
           <hr/>
 
+          {/* Itegration of user list  */}
           <div className="apps-container">
             {APPS_LIST.map((_item, _idx) => (
               <div className="app-list-block">
@@ -150,10 +152,10 @@ const Home = () => {
                 <div className="w-100 d-flex justify-content-between">
                   <span>{_item.name ?? 'N/A'}</span>
                   <span>{_item.description ?? 'N/A'}</span>
-                  <span>{_item.description}</span>
-                  <span>{_item.quantity}</span>
-                  <span>{_item.count}</span>
-                  <span>{_item.date}</span>
+                  <span>{_item.description ?? 'N/A'}</span>
+                  <span>{_item.quantity ?? 'N/A'}</span>
+                  <span>{_item.count ?? 'N/A'}</span>
+                  <span>{_item.date ?? 'N/A'}</span>
                 </div>
               </div>
             ))}

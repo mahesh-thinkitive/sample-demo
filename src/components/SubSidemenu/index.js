@@ -12,6 +12,7 @@ import SignoutIcon from "../../assets/images/signout_icon.svg";
 
 const DASHBOARD_NAVS = ['AWS', 'Advanced Analytics', 'Behavior Analytics', 'Complience', 'Operational', 'SAAS App', 'Security Posture', 'Source Analytics']
 
+// will open after sub-menu page selected
 const SubSideMenu = () => {
   return (
     <div id="subsidemenu-container">
